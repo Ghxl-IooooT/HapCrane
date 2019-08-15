@@ -21,9 +21,9 @@
 #include "camera_pins.h"
 
 // Update these with values suitable for your network.
-const char* ssid = "Nightgost";
-const char* password = "h18515062134y";
-const char* mqtt_server = "192.168.1.100";
+const char* ssid = "your-ssid";
+const char* password = "your-wifi-pwd";
+const char* mqtt_server = "ip_addr";
 
 long lastMsg = 0;
 char msg[50];
